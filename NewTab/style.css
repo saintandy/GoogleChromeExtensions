@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+#wallpaper {
+    background-image: url("img/wallpaper.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#content-parent {
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content-child {
+    height: 400px;
+    width: 100%;
+}
+
+.font-awesome {
+    line-height: 200px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    float: left;
+    color: #fff;
+    font-size: 60px;
+    transition: .2s;
+    border-radius: 100px;
+}
+.font-awesome:hover {
+    transition: .2s;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.google:hover {
+    color: #ea4335;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.twitter:hover {
+    color: #4099ff;
+}
+
+.youtube:hover {
+    color: #b31217;
+}
+
+.quora:hover {
+    color: #aa2200;
+}
+
+.gmail:hover {
+    color: #f2a60c;
+}
+
+.stackoverflow:hover {
+    color: #bcbbbb;
+}
+
+.github:hover {
+    color: #000000;
+}
