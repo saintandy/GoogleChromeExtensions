@@ -1,4 +1,4 @@
-## Custom Google Chrome Extensions
+# Custom Google Chrome Extensions
 
-### NewTab
-Containts the New Tab HTML template
+### NewTab 
+* Containts the New Tab HTML template
